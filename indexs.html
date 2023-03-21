@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+          #text {
+        font-size: 35px;
+        text-align: center;
+        animation: colorchange 5s infinite;
+      }
+      @keyframes colorchange {
+        0% {
+          color: red;
+        }
+        25% {
+          color: blue;
+        }
+        50% {
+          color: rgb(8, 161, 8);
+        }
+        75% {
+          color: yellow;
+        }
+        100% {
+          color: red;
+        }
+      }
+
+      #textt{
+  color: rgb(0, 0, 0);
+font-size: 30px;
+  
+}
+#textt:hover{
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg);
+    transition-duration: 1.5s;
+    color: #ffffff;
+}
+
+/* Button Css */
+
+.btn{
+position: relative;
+display: inline-block;
+margin: 15px;
+padding: 10px 25px;
+text-align: center;
+font-size: 16px;
+letter-spacing: 1px;
+text-decoration: none;
+color: #ffffff;
+background: mediumseagreen;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: ease-out 0.5s;
+}
+
+
+/* Slide 10 */
+.btn.btn-slide-10{
+background: #303439;
+box-shadow: inset 0 0 200px 0 rgb(0, 255, 115);
+}
+.btn.btn-slide-10:hover{
+box-shadow: inset 0 0 0 0 rgb(0, 255, 115);
+}
+
+
+
+
+.icons {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    color: rgb(39, 157, 41);
+  }
+  
+  .icons span:not(:last-child) {
+    margin-right: 1rem;
+  }
+  
+  .icons span {
+    font-size: 2rem;
+    transition: all 300ms ease-in-out;
+  }
+  
+  .icons span a{
+    color: #fff;
+  }
+  
+  .icons span .github{
+    color:#4078c0;
+  }
+  
+  .icons span .instagram{
+    color:#E1306C;
+  }
+  .icons span .linkedin{
+    color:#0e76a8;
+  }
+  
+  .icons span .youtube{
+    color:#FF0000;
+  }
+  
+  .icons span .twitter{
+    color:#1DA1F2;
+  }
+  
+  .icons span a:hover {
+    color: var(--customColor);
+  }
+  
+.contact-info{
+  margin: -3px;
+}
+
+    </style>
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="/profile material.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    <Span >Hi, I'm  </Span><span id="textt">  Abhijit Mishra.</span><br>
+                   <span>A Fullstack <span id="text" >Developer</span></span> 
+                </h1>
+                <p>
+                    I'm a Full Stack Web Developer, I love to create beautiful and functional websites
+                     and a self-motivated IT professional with huge knowledge and proficiency in Java and web development, as well as strong skills and ability in writing clean and efficient code with proper Indentation.
+                </p>
+                <div class="btn-con">
+                    <a href="/Abhijit_Mishra_resume.pdf" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a><br>
+                    <div class="icons">
+                        <span><a href="https://github.com/abhijitmishra1111" class="github"><i class="fab fa-github"></i></a></span>
+                        <span><a href="https://instagram.com/stylish_brahmin" class="instagram"><i class="fab fa-instagram"></i></a></span>
+                        <span><a href="https://www.linkedin.com/in/abhijit-mishra-b18a60222/" class="linkedin"><i class="fab fa-linkedin-in"></i></a></span></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        I'm a full stack web developer and a self-motivated IT professional with huge knowledge and proficiency in Java and web development, as well as strong skills and ability in writing clean and efficient code with proper Indentation. <br /> <br /> 
+                        
+                        I've Completed my Matriculation on 2017 from Swarnamayee High School. Completed my +2 on 2019 from Laxminarayan Mahavidyalaya. Completed my Under graduation(BCA) On 2022 from Disha College of Management and Technology, Berhampur.
+                 
+                    </p>
+                    <div class="btn-con">
+                        <a href="/Abhijit_Mishra_resume.pdf" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">1+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">20+</p>
+                            <p class="small-text">Best <br /> Projects</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">20+</p>
+                            <p class="small-text">Personal <br /> Portfolios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog-text">85%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">css3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">ReactJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">SQL</p>
+                        <div class="progress-con">
+                            <p class="prog-text">90%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2017 - present</p>
+                    <h5>Metriculation<span>- Swarnamayee Highschool</span></h5>
+                    <p>
+                        I've done my 10th then I got into IT field, I was very intrested in developing.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2017 - 2019</p>
+                    <h5>Secondary<span>- Laxminarayan Mahavidyalaya</span></h5>
+                    <p>
+                        I was very intrested in developing, I was contunue to learning about computer Language.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2019 - 2022</p>
+                    <h5>BCA<span> - Disha College</span></h5>
+                    <p>
+                        I choose BCA to learn more about computer application.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - 2022</p>
+                    <h5>Academic Project<span> - Berhampur Univercity</span></h5>
+                    <p>
+                        I've done a Project on marriage bureau system in my academics.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - 2022</p>
+                    <h5>Personal Projects<span>  - Learning Purpose</span></h5>
+                    <p>
+                        I've create more and more projects on several topics after complition of my BCA degree.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2022 - present</p>
+                    <h5>Full Stack Developement<span>  - JSpiders</span></h5>
+                    <p>
+                        I'am pursuing Java Fullstack Developement course in JSpiders at BTM, Bangalore
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://propagation.fr/wp-content/uploads/2021/12/resto-1140x760.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/abhijitmishra1111" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.behance.net/abhijitmishra2" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://codepen.io/abhijitmishra1111" class="icon">
+                                <i class="fa-brands fa-codepen"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="/Screenshot_20230111_113904.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/abhijitmishra1111" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.behance.net/abhijitmishra2" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://codepen.io/abhijitmishra1111" class="icon">
+                                <i class="fa-brands fa-codepen"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="https://lh3.googleusercontent.com/_hIJWZ8fVPbZmkkROVzZQCj0eUcrh-LZPjOhdmfX8mmCIJnoWkq7RRZxryLzeKi0m5E" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/abhijitmishra1111" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.behance.net/abhijitmishra2" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://codepen.io/abhijitmishra1111" class="icon">
+                                <i class="fa-brands fa-codepen"></i>
+                            </a>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="/profile material.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/abhijitmishra1111" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.behance.net/abhijitmishra2" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://codepen.io/abhijitmishra1111" class="icon">
+                                <i class="fa-brands fa-codepen"></i>
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+                
+               
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Projects</span><span class="bg-text">My Projects</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="https://propagation.fr/wp-content/uploads/2021/12/resto-1140x760.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Resturant Menu Project using HTML, CSS
+                            </h4>
+                            <a href="https://resturant-menu-project-by-abhi.netlify.app/" class="btn btn-slide-10" >LIVE PROJECT </a>
+                            <p>
+                                This project is based on Resturant Menu, you can find types of food manu 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="./Screenshot_20230111_113904.png" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                NETFLIX clone using HTML, CSS &JavaScript
+                            </h4>
+                            <a href="https://netflix-clone-site-by-abhijit.netlify.app/" class="btn btn-slide-10" >LIVE PROJECT </a>
+                            <p>
+                                Netflix-clone as the name of the project you will know about this project is based on Netflix.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="https://lh3.googleusercontent.com/_hIJWZ8fVPbZmkkROVzZQCj0eUcrh-LZPjOhdmfX8mmCIJnoWkq7RRZxryLzeKi0m5E" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Music player Using HTML, CSS & JavaScript
+                            </h4>
+                            <a href="https://music-player-project-by-abhi.netlify.app/" class="btn btn-slide-10" >LIVE PROJECT </a>
+                            <p>
+                                This project based on a music player, Using HTML, CSS & JavaScript
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="./profile material.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                My First Portfolio using CSS & JavaScript.
+                            </h4>
+                            <a href="http://abhijitmishra-portfolio.netlify.app" class="btn btn-slide-10" >LIVE PROJECT </a>
+                            <p>
+                                This is my first portfolio using CSS & JavaScript, you can see the source code at my work page.
+                            </p>
+                        </div>
+                    </div>
+                    
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            I'm a full stack web developer and a self-motivated IT professional with huge knowledge and proficiency in Java and web development, as well as strong skills and ability in writing clean and efficient code with proper Indentation.
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : BTM, Bangalore, India
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: abhijeetmishram111@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: Disha College</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: +91 7008484391</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: Hindi, English, Odia</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.instagram.com/stylish_brahmin/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="https://twitter.com/AbhijitEdits" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/abhijitmishra1111" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://codepen.io/abhijitmishra1111" target="_blank">
+                                    <i class="fa-brands fa-codepen"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="/Abhijit_Mishra_resume.pdf" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
